@@ -4,17 +4,16 @@ function checkResult() {
 
     // Sample student data (for demonstration purposes)
     var studentData = {
-       "123": { "subject": "Math", "marks": 95 },
-        "06": { "marks": 14},
-        "07": { "marks": 13.5},
-        "03": { "marks": 12},
-        "05": { "marks": 11},
-        "01": { "marks": 10},
-        "11": { "marks": 10},
-        "14": { "marks": 11},
-        "16": { "marks": 7.5},
-        "02": { "marks": 14},
-        "10": { "marks": 13}
+        "06": { "subject": "DBMS", "marks": 14 },
+        "07": { "subject": "DBMS", "marks": 13.5},
+        "03": { "subject": "DBMS", "marks": 12},
+        "05": { "subject": "DBMS", "marks": 11},
+        "01": { "subject": "DBMS", "marks": 10},
+        "11": { "subject": "DBMS", "marks": 10},
+        "14": { "subject": "DBMS", "marks": 11},
+        "16": { "subject": "DBMS", "marks": 7.5},
+        "02": { "subject": "DBMS", "marks": 14},
+        "10": { "subject": "DBMS", "marks": 13}
     };
 
     // Check if the roll number exists in the student data
