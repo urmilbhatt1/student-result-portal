@@ -4,7 +4,7 @@ function checkResult() {
 
     // Sample student data (for demonstration purposes)
     var studentData = {
-        "13": { "marks": 9.5},
+        "13": {"subject": "DBMS" ,"marks": "9.5"},
         "06": { "marks": 14},
         "07": { "marks": 13.5},
         "03": { "marks": 12},
@@ -18,9 +18,9 @@ function checkResult() {
     };
 
     // Check if the roll number exists in the student data
-    if (studentData.hasOwnProperty(rollNumber)) {
+     if (studentData.hasOwnProperty(rollNumber)) {
         var result = studentData[rollNumber];
-        resultContainer.innerText = Marks: " + result.marks;
+        resultContainer.innerText = "Subject: " + result.subject + ", Marks: " + result.marks;
         resultContainer.classList.remove("error");
         resultContainer.classList.add("success");
     } else {
