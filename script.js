@@ -5,6 +5,7 @@ function checkResult() {
     // Sample student data (for demonstration purposes)
     var studentData = {
         "06": { "subject": "DBMS", "marks": 14 },
+         "13": { "subject": "DBMS", "marks": 9.5 },
         "07": { "subject": "DBMS", "marks": 13.5},
         "03": { "subject": "DBMS", "marks": 12},
         "05": { "subject": "DBMS", "marks": 11},
